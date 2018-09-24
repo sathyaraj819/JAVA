@@ -1,0 +1,28 @@
+package javaset2;
+
+public class OverloadMain {
+		int square(intn){  
+			returnn*n;  
+			 }  
+			}  
+			
+			class Circle{  
+			OverloadMain;//aggregation  
+			doublepi=3.14;  
+			
+			double area(intradius){  
+			op=new OverloadMain();  
+			intrsquare=op.square(radius);//code reusability (i.e. delegates the method call).  
+		returnpi*rsquare;  
+			 }  
+			
+			
+			
+			publicstaticvoid main(String args[]){  
+			   Circle c=newCircle();  
+			doubleresult=c.area(5);  
+		System.out.println(result);  
+			 }  
+
+
+}

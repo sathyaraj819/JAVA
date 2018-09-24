@@ -1,0 +1,14 @@
+package javaset2;
+
+publicclass FinalClass {
+		class Honda1 extends FinalClass {  
+			void run(){System.out.println("running safely with 100kmph");}  
+			
+			publicvoid main(String args[]){  
+			  Honda honda= newHonda();  
+		honda.run();  
+		  }  
+
+
+		}
+}

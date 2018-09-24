@@ -1,0 +1,15 @@
+package javaset2;
+
+publicclass JavaFinal {
+		intspeedlimit=90;//final variable  
+		void run(){  
+		speedlimit=400;  
+		 }  
+		publicstaticvoid main(String args[]){  
+		JavaFinal obj=new JavaFinal ();  
+		obj.run();  
+		 }  
+
+
+}
+

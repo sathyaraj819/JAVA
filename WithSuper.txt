@@ -1,0 +1,19 @@
+package javaset2;
+
+publicclass WithSuper {
+		intspeed=50;  
+		}  
+		
+		class Bike4 extends WithSuper {  
+		intspeed=100;  
+		
+		void display(){  
+		System.out.println(super.speed);//will print speed of Vehicle now  
+		  }  
+		publicstaticvoid main(String args[]){  
+		   Bike4 b=newBike4();  
+		b.display();  
+		
+	}  
+
+}

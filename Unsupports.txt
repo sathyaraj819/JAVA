@@ -1,0 +1,17 @@
+package javaset2;
+
+public class unsupports {
+		voidmsg(){System.out.println("Hello");}  
+		} 
+		class java{  
+		voidmsg(){System.out.println("Welcome");}  
+		}  
+		class C extends unsupports,java{//suppose if it were  
+		
+		publicStaticvoid main(String args[]){  
+	   C obj=newC();  
+		obj.msg();//Now which msg() method would be invoked?  
+		}  
+
+
+}

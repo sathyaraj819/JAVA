@@ -1,0 +1,17 @@
+publicclass SuperInvokesParent {
+		void message(){System.out.println("welcome");}  
+		}  
+		
+	class Student16 extends SuperInvokesParent {  
+		voidmessage(){System.out.println("welcome to java");}  
+		
+		void display(){  
+		message();//will invoke current class message() method  
+		super.message();//will invoke parent class message() method  
+		}  
+		
+		publicstaticvoid main(String args[]){  
+		Student16 s=newStudent16();  
+		s.display();  
+		}  
+	}  

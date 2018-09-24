@@ -1,0 +1,22 @@
+class RunTimePoly{  
+	intgetRateOfInterest(){return 0;}  
+	}  
+	class SBI extends RunTimePoly {  
+	intgetRateOfInterest(){return 8;}  
+	}  
+	class ICICI extends RunTimePoly {  
+	intgetRateOfInterest(){return 7;}  
+	}  
+	class AXIS extends RunTimePoly {  
+	intgetRateOfInterest(){return 9;}  
+	}  
+	class Exp39{  
+	public static void main(String args[]){  
+        RunTimePoly b1=new SBI();  
+	RunTimePoly b2=new ICICI();  
+	RunTimePoly b3=new AXIS();  
+	System.out.println("SBI Rate of Interest: "+b1.getRateOfInterest());  
+	System.out.println("ICICI Rate of Interest: "+b2.getRateOfInterest());  
+	System.out.println("AXIS Rate of Interest: "+b3.getRateOfInterest());  
+	}  
+	}  

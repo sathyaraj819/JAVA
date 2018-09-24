@@ -1,0 +1,18 @@
+package javaset2;
+
+publicclass SuperParent {
+		SuperParent (){System.out.println("Vehicle is created");}  
+		}  
+		
+		class Bike5 extends SuperParent {  
+		Bike5(){  
+		super();//will invoke parent class constructor  
+		System.out.println("Bike is created");  
+		  }  
+		publicstaticvoid main(String args[]){  
+		   Bike5 b=newBike5();  
+		
+		}  
+
+
+}

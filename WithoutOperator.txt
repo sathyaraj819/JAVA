@@ -1,0 +1,15 @@
+package javaset2;
+
+publicclass WithoutOperator {
+	void run(){System.out.println("Vehicle is running");}  
+		}  
+		class Bike extends WithoutOperator{  
+		
+	publicstaticvoid main(String args[]){  
+		  Bike obj = newBike();  
+		obj.run();  
+		  }  
+
+	
+
+}

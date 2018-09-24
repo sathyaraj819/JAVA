@@ -1,0 +1,15 @@
+package javaset2;
+
+publicclass FinalMethod {
+		finalvoid run(){System.out.println("running");}  
+		}  
+		
+		class Honda extends FinalMethod {  
+		voidrun(){System.out.println("running safely with 100kmph");}  
+		
+		publicstaticvoid main(String args[]){  
+		   Honda honda= newHonda();  
+		honda.run();  
+	   }  
+
+}

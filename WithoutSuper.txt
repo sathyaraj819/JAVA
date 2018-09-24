@@ -1,0 +1,16 @@
+package javaset2;
+publicclass WithoutSuper {
+	intspeed=50;  
+		}  
+		class Bike3 extends WithoutSuper {  
+		intspeed=100;  
+		void display(){  
+		System.out.println(speed);//will print speed of Bike   
+		  }  
+		publicstaticvoid main(String args[]){  
+		   Bike3 b= newBike3();  
+		b.display();  
+		}  
+
+
+}

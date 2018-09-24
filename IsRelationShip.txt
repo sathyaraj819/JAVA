@@ -1,0 +1,15 @@
+package javaset2;
+classIsRelationship{
+	floatsalary=40000;  
+		}  
+		class javalab026 extendsIsRelationship  {  
+		intbonus=10000;  
+		publicstaticvoid main(String args[]){  
+			javalab026p=new javalab026();  
+	System.out.println("Programmer salary is:"+p.salary);  
+		System.out.println("Bonus of Programmer is:"+p.bonus);  
+		}  
+
+	
+
+}
